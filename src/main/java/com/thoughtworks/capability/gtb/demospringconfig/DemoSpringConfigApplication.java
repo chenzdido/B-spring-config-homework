@@ -14,6 +14,7 @@ public class DemoSpringConfigApplication implements ApplicationRunner {
 	@Autowired
 	private MailConfig mailConfig;
 
+
 	public static void main(String[] args) {
 		SpringApplication.run(DemoSpringConfigApplication.class, args);
 	}
